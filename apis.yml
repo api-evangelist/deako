@@ -1,8 +1,14 @@
 aid: deako
 name: Deako
-description: 'Deako is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Industrial, Energy & IoT. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Deako is a whole-home smart lighting company that designs modular smart switches,
+  dimmers, plugs, and simple switches (motion, timer, nightlight, and fan controls) for
+  residential new construction and retrofit. Its Deako Intelligence platform layers adaptive
+  lighting, follow-me sound, intercom, and parent-care features on top of the hardware, and
+  the devices integrate with Amazon Alexa, Google Home, Control4, Clare, and the Matter
+  smart-home standard. Deako sells directly and through a network of homebuilders,
+  electricians, and integrators. No public developer API, SDK, or developer portal is
+  currently published; this profile tracks the company''s public web, support, blog, legal,
+  and smart-home integration surface, awaiting any future developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/deako/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.deako.com/wp-content/uploads/2025/03/Favicon-512x512-1.svg
 tags:
 - Company
 - Industrial, Energy & Iot
+- Smart Home
+- Smart Lighting
+- Home Automation
+- IoT
+- Lighting
+- Matter
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.deako.com/
+- type: Integrations
+  url: https://www.deako.com/integrations/
+- type: Blog
+  url: https://www.deako.com/blog/
+- type: Support
+  url: https://support.deako.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.deako.com/legal
+- type: TermsOfService
+  url: https://www.deako.com/legal
+- type: DomainSecurity
+  url: security/deako-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
